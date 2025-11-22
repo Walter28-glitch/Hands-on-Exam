@@ -81,7 +81,7 @@ export default function Home() {
         style={{ width: '100%', padding: '8px', marginBottom: '20px' }}
       />
 
-      {/* Add Todo Input */}
+     
       <div style={{ display: 'flex', marginBottom: '20px' }}>
         <input
           type="text"
@@ -98,7 +98,7 @@ export default function Home() {
         </button>
       </div>
 
-      {/* Tabs */}
+      
       <div style={{ display: 'flex', marginBottom: '20px' }}>
         <button 
           onClick={() => setActiveTab('todo')}
